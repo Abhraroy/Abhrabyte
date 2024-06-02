@@ -359,7 +359,7 @@ main > .container > .box:nth-child(10) > div {
   transition: all 0.2s;
   animation-timing-function: cubic-bezier(0, 1, 0, 1);
 }
-.ad-card {
+.move-card {
   /* background-color: blue; */
   height: 100%;
   width: 25vw;
@@ -371,12 +371,12 @@ main > .container > .box:nth-child(10) > div {
   box-sizing: border-box;
   gap: 5px;
 }
-.ad-card:hover img {
+.move-card:hover img {
   scale: 0.9;
   box-shadow: -4px 3px 10px rgba(218, 207, 207, 0.5),
     4px 3px 10px rgba(218, 207, 207, 0.5);
 }
-.ad-card > img {
+.move-card > img {
   scale: 0.8;
   width: 90%;
   height: 60%;
@@ -384,18 +384,18 @@ main > .container > .box:nth-child(10) > div {
   transition: all 0.5s ease-in-out;
   border-radius: 5px;
 }
-.ad-card > span:nth-child(2) {
+.move-card > span:nth-child(2) {
   font-size: 0.8rem;
   font-weight: bolder;
 }
-.ad-card > span:nth-child(3) {
+.move-card > span:nth-child(3) {
   font-size: 1.2rem;
   font-weight: bolder;
 }
-.ad-card > span:nth-child(3):hover {
+.move-card > span:nth-child(3):hover {
   color: orange;
 }
-.ad-card > span:nth-child(4) {
+.move-card > span:nth-child(4) {
   font-size: 0.9rem;
   font-weight: bolder;
 }
@@ -409,7 +409,7 @@ main > .container > .box:nth-child(10) > div {
   border: hidden;
   background-color: orange;
 }
-.ad-card:hover .addtocart {
+.move-card:hover .addtocart {
   border: hidden;
   background-color: orange;
 }
