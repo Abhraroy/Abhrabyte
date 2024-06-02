@@ -1,6 +1,6 @@
 let acc = document.getElementById('account')
 acc.addEventListener('click',()=>{
-    window.location.href='../myaccount.html'
+    window.location.href='myaccount.html'
 })
 
 let a = 0
@@ -33,16 +33,16 @@ let btn = document.querySelectorAll(".shop-btn")
 btn.forEach(function(btn,index){
     if(index===0){
     btn.addEventListener("click",()=>{
-        window.location.href='../product-headphone.html'
+        window.location.href='product-headphone.html'
     })
     }
     else if(index===1){
         btn.addEventListener("click",()=>{
-            window.location.href='../product-keyboard.html'
+            window.location.href='product-keyboard.html'
         })
     }else if(index===2){
         btn.addEventListener("click",()=>{
-            window.location.href='../product-mouse.html'
+            window.location.href='product-mouse.html'
         })
     }
 })
